@@ -1,7 +1,7 @@
 # Custom ignores
-results/bern
-results/mult\ gauss
-results/none
+src/results/bern
+src/results/mult\ gauss
+src/results/none
 
 
 # Byte-compiled / optimized / DLL files
