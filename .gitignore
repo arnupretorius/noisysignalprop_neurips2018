@@ -1,3 +1,9 @@
+# Custom ignores
+results/bern
+results/mult\ gauss
+results/none
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
