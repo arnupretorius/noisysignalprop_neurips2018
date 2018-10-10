@@ -694,8 +694,8 @@ def noisy_signal_prop_simulations(dist=None, noise=None, act=None, init=None, re
         test = {"dist": dist}
 
     if "over" in init:
-        weight_sigmas = [1.25 * np.sqrt(2 / mu_2(**test))]
-        # weight_sigmas = [(1 + (np.random.rand() * 0.1 + 0.05)) * np.sqrt(2 / mu_2(**test))]
+        #weight_sigmas = [1.25 * np.sqrt(2 / mu_2(**test))]
+        weight_sigmas = [(1 + (np.random.rand() * 0.3 + 0.05)) * np.sqrt(2 / mu_2(**test))]
     elif "under" in init:
         weight_sigmas = [1 - (np.random.rand() * 0.1 + 0.05) * np.sqrt(2 / mu_2(**test))]
     elif "crit" in init:
